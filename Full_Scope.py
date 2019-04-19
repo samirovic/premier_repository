@@ -230,3 +230,6 @@ df_ord.to_excel(writer, sheet_name='Orders Count', encoding = 'utf_8_sig')
 df_lines.to_excel(writer, sheet_name='Lines Count', encoding = 'utf_8_sig')
 df_sku.to_excel(writer, sheet_name='SKU Count', encoding = 'utf_8_sig')
 writer.save()
+
+# Ajouter une modification
+print("Nouvelles modifs")
